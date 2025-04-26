@@ -290,7 +290,7 @@ elif nav_options == "Library Statistics":
 #         title = st.text_input("Title")
 #         author = st.text_input("Author")
 #         year = st.number_input("Publication Year", min_value=1800, max_value=datetime.datetime.now().year, step=1)
-       genre = st.selectbox("Genre", ["Fiction", "Non-Fiction", "Science", "Technology", "Fantasy", "Romance", "Poetry", "History", "Other"])
+#         genre = st.selectbox("Genre", ["Fiction", "Non-Fiction", "Science", "Technology", "Fantasy", "Romance", "Poetry", "History", "Other"])
 #         read_status = st.radio("Read Status", ["Read", "Unread"])
 #         submitted = st.form_submit_button("Add Book")
 #         if submitted:
@@ -311,4 +311,3 @@ elif nav_options == "Library Statistics":
 #             """, unsafe_allow_html=True)
 #     else:
 #         st.markdown("<div class='warning-message'>Your library is empty. Add books to get started!</div>", unsafe_allow_html=True)
-
